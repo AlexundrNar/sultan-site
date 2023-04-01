@@ -7,7 +7,7 @@ const Footer: FC = () => {
       <div className="container">
         <div className="footer__info">
           <div className="footer__company">
-            <img src="./images/sultan.svg" alt="" />
+            <img src={`${process.env.PUBLIC_URL}/images/sultan.svg`} alt="" />
             <h5>
               Компания «Султан» — снабжаем розничные магазины товарами "под
               ключ" в Кокчетаве и Акмолинской области
@@ -16,7 +16,7 @@ const Footer: FC = () => {
             <div className="footer__email">
               <input type="text" placeholder="Введите ваш E-mail" />
               <button>
-                <img src="./images/arrow_footer.svg" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/arrow_footer.svg`} alt="" />
               </button>
             </div>
           </div>
@@ -40,11 +40,11 @@ const Footer: FC = () => {
             <h3>Скачать прайс-лист:</h3>
             <button className="footer__price">
               Прайс-лист
-              <img src="./images/arrow_down.svg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/arrow_down.svg`} alt="" />
             </button>
             <p className="f__svaz">Связь в мессенджерах:</p>
-            <button className="footer__wsapp"><img src="./images/wsapp.svg" alt="" /></button>
-            <button className="footer__tg"><img src="./images/tg.svg" alt="" /></button>
+            <button className="footer__wsapp"><img src={`${process.env.PUBLIC_URL}/images/wsapp.svg`} alt="" /></button>
+            <button className="footer__tg"><img src={`${process.env.PUBLIC_URL}/images/tg.svg`} alt="" /></button>
           </div>
           <div className="footer__contacts">
             <h3>Контакты:</h3>
@@ -53,8 +53,8 @@ const Footer: FC = () => {
             <span>Заказать звонок</span>
             <h4>opt.sultan@mail.ru</h4>
             <p>На связи в любое время</p>
-            <button className="footer__visa"><img src="./images/visa.svg" alt="" /></button>
-            <button className="footer__mc"><img src="./images/mc.svg" alt="" /></button>
+            <button className="footer__visa"><img src={`${process.env.PUBLIC_URL}/images/visa.svg`} alt="" /></button>
+            <button className="footer__mc"><img src={`${process.env.PUBLIC_URL}/images/mc.svg`} alt="" /></button>
           </div>
         </div>
       </div>

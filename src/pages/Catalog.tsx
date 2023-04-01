@@ -132,7 +132,7 @@ const Catalog: FC<any> = () => {
             <option value="name">Название</option>
             <option value="price">Цена</option>
           </select>
-          <img className={asc ? 'catalog__asc': ''} src="./images/sort.svg" alt="" onClick={toggleAsc} />
+          <img className={asc ? 'catalog__asc': ''} src={`${process.env.PUBLIC_URL}/images/sort.svg`} alt="" onClick={toggleAsc} />
         </div>
       </div>
 
@@ -168,7 +168,7 @@ const Catalog: FC<any> = () => {
               <h4>Производитель</h4>
               <input type="text" placeholder="Поиск..." onChange={handleMaker} value={maker} />
               <button>
-                <img src="./images/search.svg" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/search.svg`} alt="" />
               </button>
             </div>
 
@@ -201,14 +201,14 @@ const Catalog: FC<any> = () => {
                 <h4>{good.price} ₸</h4>
                 <button onClick={() => addToCart(good)}>
                   В КОРЗИНУ
-                  <img src="./images/cart_mini.svg" alt="" />
+                  <img src={`${process.env.PUBLIC_URL}/images/cart_mini.svg`} alt="" />
                 </button>
               </div>
             ))}
           </div>
 
           <div className="content__pagination">
-            <button><img src="./images/arrow_yellow.svg" alt="" onClick={prevPage}/></button>
+            <button><img src={`${process.env.PUBLIC_URL}/images/arrow_yellow.svg`} alt="" onClick={prevPage}/></button>
             {
             pageNumbers.map(number => (
               <span className='page__items' key={number} onClick={() => paginate(number)}>
@@ -216,7 +216,7 @@ const Catalog: FC<any> = () => {
               </span>
             ))
             }
-            <button><img src="./images/arrow_yellow.svg" alt="" onClick={nextPage}/></button>
+            <button><img src={`${process.env.PUBLIC_URL}/images/arrow_yellow.svg`} alt="" onClick={nextPage}/></button>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ const Card: FC = () => {
       <div className="card">
         <button onClick={addToCart}>
           В корзину
-          <img src=".././images/cart_mini.svg" alt="пропала картинка" />
+          <img src={`${process.env.PUBLIC_URL}/images/cart_mini.svg`} alt="пропала картинка" />
         </button>
 
         <div className="card__content">
@@ -82,9 +82,9 @@ const Card: FC = () => {
               <span onClick={increase}>+</span>
             </div>
             <div className="card__trash">
-              <span><img src=".././images/link.svg" alt="" /></span>
+              <span><img src={`${process.env.PUBLIC_URL}/images/link.svg`} alt="" /></span>
               <span>При покупке от &nbsp;<strong>10 000 ₸</strong>&nbsp; бесплатная <br></br> доставка по Кокчетаву и области</span>
-              <span>Прайс-лист<img src=".././images/arrow_down-grey.svg" alt="" /></span>
+              <span>Прайс-лист<img src={`${process.env.PUBLIC_URL}/images/arrow_down-grey.svg`} alt="" /></span>
             </div>
             <div className="char">
               <p>Производитель: <span>{good?.maker}</span></p>

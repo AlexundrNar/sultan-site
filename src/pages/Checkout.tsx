@@ -68,7 +68,7 @@ const Checkout: FC = () => {
             <span onClick={() => increase(good)}>+</span>
             <h3>{good.price * Number(good.quantity)} ₸</h3>
             <button onClick={() => deleteProduct(good)}>
-              <img src="./images/trashcan.svg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/trashcan.svg`} alt="" />
             </button>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Checkout: FC = () => {
 
       <ModalDash active={active} setActive={setActive}>
         <button className="double__wings" onClick={() => setActive(false)}>
-          <img src="./images/wings.svg" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/wings.svg`} alt="" />
         </button>
         <h3>Спасибо за заказ</h3>
         <span>Наш менеджер свяжется с вами в ближайшее время</span>
