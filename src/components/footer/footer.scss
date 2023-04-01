@@ -1,0 +1,302 @@
+.footer {
+  padding: 71px 0 116px;
+  background: #3f4e65;
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+
+  h3 {
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+
+  h4 {
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  p {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+}
+
+.footer__company {
+  max-width: 320px;
+
+  h5 {
+    padding-top: 15px;
+  }
+
+  p {
+    padding-top: 45px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.footer__email {
+  margin-top: 14px;
+  position: relative;
+  align-items: center;
+  display: flex;
+
+  input {
+    width: 282px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 36px;
+
+    &::placeholder {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #5c6370;
+      opacity: 0.6;
+    }
+  }
+
+  button {
+    position: relative;
+    padding-top: 6px;
+    padding-left: 2px;
+    right: 48px;
+    background: #ffc85e;
+    border-radius: 100px;
+    width: 39px;
+    height: 39px;
+  }
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__price {
+  margin-top: 21px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #ffc85e;
+  border-radius: 79px;
+  padding: 21px 50px;
+
+  img {
+    margin-left: 12px;
+  }
+}
+
+.footer__wsapp {
+  position: relative;
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+  background: #00e676;
+  border-radius: 100px;
+
+  img {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.footer__tg {
+  position: relative;
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 39px;
+  height: 39px;
+  background: #40b3e0;
+  border-radius: 100px;
+
+  img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.footer__contacts {
+  p {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration-line: underline;
+  }
+}
+
+.footer__visa {
+  margin-top: 25px;
+  margin-right: 5px;
+  position: relative;
+  width: 61px;
+  height: 39px;
+  background: #00579f;
+  border-radius: 3px;
+
+  img {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+  }
+}
+
+.footer__mc {
+  margin-top: 25px;
+  margin-right: 5px;
+  position: relative;
+  width: 61px;
+  height: 39px;
+  background: #0f3560;
+  border-radius: 3px;
+
+  img {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+  }
+}
+
+@media (max-width: 376px) {
+  .footer {
+    position: relative;
+    padding: 15px 0;
+
+    h5 {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+  }
+
+  .footer__info {
+    display: block;
+  }
+
+  .footer__company {
+    margin-bottom: 30px;
+    img {
+      height: 41px;
+    }
+
+    p {
+      padding-top: 15px;
+    }
+  }
+
+  .price-media {
+    h3 {
+      display: none;
+    }
+  }
+
+  .footer__price {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 12px 29px;
+  
+    img {
+      margin-left: 5px;
+    }
+  }
+
+  .footer__email {
+    margin-top: 14px;
+  
+    input {
+      width: 306px;
+    }
+  
+    button {
+      position: absolute;
+      padding-top: 6px;
+      padding-left: 2px;
+      right: 10px;
+      background: #ffc85e;
+      border-radius: 100px;
+      width: 39px;
+      height: 39px;
+
+      img {
+        height: auto;
+      }
+    }
+  }
+
+  .cat {
+    position: absolute;
+    top: 248px;
+    right: 10px;
+  }
+
+  .f__svaz {
+    position: absolute;
+    bottom: 154px;
+    right: 10px;
+  }
+
+  .footer__wsapp {
+    position: absolute;
+    bottom: 102px;
+    right: 70px;
+  }
+
+  .footer__tg {
+    position: absolute;
+    bottom: 102px;
+    right: 20px;
+  }
+
+  .footer__contacts {
+    margin-top: 63px;
+  }
+  
+  .footer__visa {
+    margin-top: 10px;
+  }
+
+  .footer__mc {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,199 @@
+.admin {
+  display: flex;
+}
+
+.form {
+  width: 235px;
+  margin-bottom: 10px;
+
+  input {
+    margin: 4px 0;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 2px 6px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+  }
+
+  select {
+    width: 234px;
+    height: 150px;
+    padding: 4px 6px;
+    outline: none;
+    font-weight: 300;
+    font-size: 12px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+  }
+}
+
+.form__btn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+
+  button {
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: lawngreen;
+  }
+}
+
+.admin__content {
+  position: relative;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px dashed rgba(63, 78, 101, 0.3);
+}
+
+.admin__img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 70px;
+  }
+}
+
+.admin__info {
+  width: 350px;
+  span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3f4e65;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: #111111;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3f4e65;
+  }
+}
+
+.admin__caretype {
+  width: 200px;
+
+  p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3f4e65;
+  }
+}
+
+.admin__price {
+  margin-left: 50px;
+  width: 100px;
+
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: #111111;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3f4e65;
+  }
+}
+
+.btn__danger {
+  margin-left: 44px;
+  right: 0;
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background: red;
+  border-radius: 79px;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 376px) {
+  .admin {
+    display: block;
+  }
+
+  .admin__content {
+    height: 200px;
+    align-items: flex-start;
+  }
+
+  .admin__img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+  
+    img {
+      height: 70px;
+    }
+  }
+
+  .admin__info {
+    width: 100px;
+    span,
+    p {
+    display: none;
+    }
+  
+    h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 36px;
+      color: #111111;
+    }
+  }
+
+  .admin__caretype {
+    width: 100px;
+    padding-top: 8px;
+  }
+
+  .admin__price {
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    margin-left: 20px;
+  
+    h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 36px;
+      color: #111111;
+    }
+  
+    p {
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 18px;
+      color: #3f4e65;
+    }
+  }
+  
+  .btn__danger {
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+  }
+
+
+
+}

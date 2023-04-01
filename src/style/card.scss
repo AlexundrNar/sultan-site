@@ -1,0 +1,270 @@
+.hlebnie__kroshki {
+  display: flex;
+  padding-top: 45px;
+
+  h4 {
+    padding: 2px 10px;
+    border-right: 1px dashed #3f4e65;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3f4e65;
+
+    &:last-child {
+      border: none;
+      opacity: 0.5;
+    }
+  }
+}
+
+.card {
+  margin-top: 65px;
+  margin-bottom: 65px;
+
+  button {
+    position: absolute;
+    right: 25%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    padding: 8px 39px;
+    background: #ffc85e;
+    border-radius: 80px;
+
+    img {
+      height: 17px;
+      margin-left: 6px;
+    }
+  }
+}
+
+.card__content {
+  display: flex;
+}
+
+.card__img {
+  width: 654px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 400px;
+  }
+}
+
+.card__info {
+  h4 {
+    padding-top: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1fd85d;
+  }
+
+  h2 {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    color: #111111;
+
+    span {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 45px;
+      color: #111111;
+    }
+  }
+
+  span {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3f4e65;
+  }
+
+  p {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3f4e65;
+
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #111111;
+    }
+  }
+}
+
+.card__price {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    padding-right: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    color: #111111;
+  }
+
+  span {
+    margin: 0 17px;
+    padding: 4px 14px;
+    height: 23px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 198, 80, 0.3) 0%,
+      rgba(254, 202, 110, 0.3) 97.25%
+    );
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  p {
+    padding: 0;
+  }
+}
+
+.card__trash {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+
+  span {
+    box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+    border-radius: 10px;
+
+    &:nth-child(1) {
+      padding: 28px;
+    }
+
+    &:nth-child(2) {
+      width: 316px;
+      padding: 21px 36px;
+      text-align: center;
+    }
+
+    &:nth-child(3) {
+      padding: 30px 37px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #3f4e65;
+
+      img {
+        margin-left: 10px;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .hlebnie__kroshki {
+    display: none;
+  }
+
+  .card {
+    margin-top: 77px;
+
+    button {
+      position: absolute;
+      top: 340px;
+      left: 10px;
+      color: #ffffff;
+      padding: 21px 0px;
+      width: 184px;
+    }
+  }
+
+  .card__content {
+    display: block;
+  }
+
+  .card__img {
+    width: 300px;
+
+    img {
+      height: 179px;
+    }
+  }
+
+  .card__info {
+    h4 {
+      padding-top: 15px;
+    }
+
+    h2 {
+      font-size: 16px;
+      line-height: 24px;
+
+      span {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .card__ves {
+      display: none;
+    }
+  }
+
+  .card__price {
+    padding-top: 20px;
+
+    h3 {
+      padding-right: 27px;
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+  .card__trash {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+    span {
+      &:nth-child(1) {
+        padding: 19px;
+        position: absolute;
+        right: 30px;
+        top: 340px;
+      }
+
+      &:nth-child(2) {
+        width: 300px;
+        position: absolute;
+        top: 420px;
+      }
+
+      &:nth-child(3) {
+        width: 300px;
+        padding: 30px 37px;
+        position: absolute;
+        top: 500px;
+        text-align: center;
+      }
+    }
+  }
+
+  .char {
+    margin-top: 270px;
+    p {
+      padding-top: 5px;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color: #3f4e65;
+    }
+  }
+}

@@ -1,0 +1,272 @@
+.hlebnie__kroshki {
+  display: flex;
+  padding-top: 45px;
+
+  h4 {
+    padding: 2px 10px;
+    border-right: 1px dashed #3f4e65;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3f4e65;
+
+    &:last-child {
+      border: none;
+      opacity: 0.5;
+    }
+  }
+}
+
+.check__title {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+
+  div {
+    position: absolute;
+    right: 0;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 30px;
+    color: #111111;
+  }
+}
+
+.check__content {
+  position: relative;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px dashed rgba(63, 78, 101, 0.3);
+}
+
+.check__img {
+  width: 281px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 191px;
+  }
+}
+
+.check__info {
+  span {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3f4e65;
+  }
+
+  h3 {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111111;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3f4e65;
+  }
+}
+
+.check__price {
+  display: flex;
+  align-items: center;
+
+  span {
+    margin: 0 17px;
+    padding: 0px 14px;
+    height: 23px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 198, 80, 0.3) 0%,
+      rgba(254, 202, 110, 0.3) 97.25%
+    );
+    border-radius: 100px;
+    cursor: pointer;
+
+    &:nth-child(1) {
+      margin-left: 44px;
+    }
+  }
+
+  h3 {
+    margin-left: 44px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    color: #111111;
+    width: max-content;
+  }
+
+  p {
+    padding: 0;
+  }
+
+  button {
+    margin-left: 44px;
+    right: 0;
+    position: relative;
+    width: 59px;
+    height: 59px;
+    background: #ffc85e;
+    border-radius: 79px;
+
+    img {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }
+}
+
+.check__buy {
+  margin: -50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    padding: 21px 37px;
+    background: #ffc85e;
+    border-radius: 79px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    z-index: 5;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #111111;
+  }
+}
+
+.double__wings {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  background: #ffc85e;
+  border-radius: 79px;
+
+  img {
+    position: absolute;
+    top: 23px;
+    right: 18px;
+  }
+}
+
+@media (max-width: 376px) {
+  .hlebnie__kroshki {
+    display: none;
+  }
+  
+  .check__title {
+    margin: 77px 0 20px;
+  
+    h2 {
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+  }
+
+  .check__content {
+    padding: 20px 0;
+    display: block;
+  }
+  
+  .check__img {
+    width: 300px;
+  
+    img {
+      height: 191px;
+    }
+  }
+
+  .check__info {
+    h3 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  
+    p {
+      padding-top: 10px;
+    }
+  }
+
+  .check__price {
+    height: 59px;
+    margin-top: 15px;
+  
+    span {
+      margin: 0 17px;
+      padding: 0px 14px;
+      height: 23px;
+      cursor: pointer;
+  
+      &:nth-child(1) {
+        margin-left: 0px;
+      }
+    }
+  
+    h3 {
+      margin: 0px;
+      padding: 0 15px;
+      height: 49px;
+      border-left: 1px dashed rgba(63, 78, 101, 0.2);
+      border-right: 1px dashed rgba(63, 78, 101, 0.2);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 49px;
+    }
+  
+   
+    button {
+      margin-left: 0px;
+      right: 2px;
+      position: absolute;
+    }
+  }
+
+
+
+  .check__buy {
+    position: relative;
+    margin: -25px 0 50px;
+    display: block;
+  
+    button {
+      margin-top: 60px;
+      padding: 31px 91px;
+    }
+  
+    h3 {
+      width: 100%;
+      position: absolute;
+      top: 5px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 39px;
+      color: #111111;
+    }
+  }
+
+
+
+
+}
