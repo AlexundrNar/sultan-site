@@ -1,6 +1,6 @@
 [
   {
-    "url": "./images/sorti.png",
+    "url": "/images/sorti.png",
     "name": "Sorti",
     "sizeType": "объем",
     "size": "450",
@@ -12,7 +12,7 @@
     "caretype": ["уход за лицом", "уход за руками"]
   },
   {
-    "url": "./images/aos.png",
+    "url": "/images/aos.png",
     "name": "AOS",
     "sizeType": "объем",
     "size": "450",
@@ -24,7 +24,7 @@
     "caretype": ["уход за телом", "уход за ногами"]
   },
   {
-    "url": "./images/ariel.png",
+    "url": "/images/ariel.png",
     "name": "Ariel",
     "sizeType": "вес",
     "size": "15X28.8",
@@ -36,7 +36,7 @@
     "caretype": ["уход за лицом"]
   },
   {
-    "url": "./images/bimax.png",
+    "url": "/images/bimax.png",
     "name": "Bimax",
     "sizeType": "вес",
     "size": "1500",
@@ -48,7 +48,7 @@
     "caretype": ["уход за руками"]
   },
   {
-    "url": "./images/biomio.png",
+    "url": "/images/biomio.png",
     "name": "BioMio",
     "sizeType": "вес",
     "size": "90",
@@ -60,7 +60,7 @@
     "caretype": ["уход за волосами"]
   },
   {
-    "url": "./images/sorti.png",
+    "url": "/images/sorti.png",
     "name": "Sorti",
     "sizeType": "объем",
     "size": "450",
@@ -72,7 +72,7 @@
     "caretype": ["уход за руками"]
   },
   {
-    "url": "./images/aos.png",
+    "url": "/images/aos.png",
     "name": "AOS",
     "sizeType": "объем",
     "size": "450",
@@ -84,7 +84,7 @@
     "caretype": ["уход за волосами"]
   },
   {
-    "url": "./images/ariel.png",
+    "url": "/images/ariel.png",
     "name": "Ariel",
     "sizeType": "вес",
     "size": "15X28.8",
@@ -96,7 +96,7 @@
     "caretype": ["уход за лицом", "уход за ногами"]
   },
   {
-    "url": "./images/bimax.png",
+    "url": "/images/bimax.png",
     "name": "Bimax",
     "sizeType": "вес",
     "size": "1500",
@@ -108,7 +108,7 @@
     "caretype": ["уход за телом", "уход за руками"]
   },
   {
-    "url": "./images/biomio.png",
+    "url": "/images/biomio.png",
     "name": "BioMio",
     "sizeType": "вес",
     "size": "90",
@@ -120,7 +120,7 @@
     "caretype": ["уход за ногами", "уход за руками"]
   },
   {
-    "url": "./images/sorti.png",
+    "url": "/images/sorti.png",
     "name": "Sorti",
     "sizeType": "объем",
     "size": "450",
@@ -132,7 +132,7 @@
     "caretype": ["уход за ногами", "уход за волосами"]
   },
   {
-    "url": "./images/aos.png",
+    "url": "/images/aos.png",
     "name": "AOS",
     "sizeType": "объем",
     "size": "450",
@@ -144,7 +144,7 @@
     "caretype": ["уход за лицом", "уход за ногами"]
   },
   {
-    "url": "./images/ariel.png",
+    "url": "/images/ariel.png",
     "name": "Ariel",
     "sizeType": "вес",
     "size": "15X28.8",
@@ -156,7 +156,7 @@
     "caretype": ["уход за волосами", "уход за руками"]
   },
   {
-    "url": "./images/bimax.png",
+    "url": "/images/bimax.png",
     "name": "Bimax",
     "sizeType": "вес",
     "size": "1500",
@@ -168,7 +168,7 @@
     "caretype": ["уход за лицом", "уход за телом"]
   },
   {
-    "url": "./images/biomio.png",
+    "url": "/images/biomio.png",
     "name": "BioMio",
     "sizeType": "вес",
     "size": "90",
@@ -180,7 +180,7 @@
     "caretype": ["уход за ногами", "уход за руками"]
   },
   {
-    "url": "./images/sorti.png",
+    "url": "/images/sorti.png",
     "name": "Sorti",
     "sizeType": "объем",
     "size": "450",
@@ -192,7 +192,7 @@
     "caretype": ["уход за руками"]
   },
   {
-    "url": "./images/aos.png",
+    "url": "/images/aos.png",
     "name": "AOS",
     "sizeType": "объем",
     "size": "450",
@@ -204,7 +204,7 @@
     "caretype": ["уход за телом"]
   },
   {
-    "url": "./images/ariel.png",
+    "url": "/images/ariel.png",
     "name": "Ariel",
     "sizeType": "вес",
     "size": "15X28.8",
@@ -216,7 +216,7 @@
     "caretype": ["уход за ногами", "уход за руками"]
   },
   {
-    "url": "./images/bimax.png",
+    "url": "/images/bimax.png",
     "name": "Bimax",
     "sizeType": "вес",
     "size": "1500",
@@ -228,7 +228,7 @@
     "caretype": ["уход за волосами", "уход за руками"]
   },
   {
-    "url": "./images/biomio.png",
+    "url": "/images/biomio.png",
     "name": "BioMio",
     "sizeType": "вес",
     "size": "90",

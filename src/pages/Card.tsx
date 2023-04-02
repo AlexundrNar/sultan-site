@@ -68,7 +68,7 @@ const Card: FC = () => {
 
         <div className="card__content">
           <div className="card__img">
-            <img src={`../${good?.url}`} alt="" />
+            <img src={`${process.env.PUBLIC_URL}${good?.url}`} alt="" />
           </div>
 
           <div className="card__info">

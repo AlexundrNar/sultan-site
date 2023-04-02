@@ -81,7 +81,7 @@ const Admin: FC = () => {
           {data.map((good: IGood) => (
             <div className="admin__content" key={good.barcode}>
               <div className="admin__img">
-                <img src={good.url} alt="" />
+                <img src={`${process.env.PUBLIC_URL}${good.url}`} alt="" />
               </div>
               <div className="admin__info">
                 <span>

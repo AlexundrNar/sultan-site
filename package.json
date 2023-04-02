@@ -1,6 +1,7 @@
 {
   "name": "test-hot-3-sultan",
   "version": "0.1.0",
+  "homepage": "https://AlexundrNar.github.io/sultan-site",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

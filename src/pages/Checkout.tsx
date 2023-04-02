@@ -47,7 +47,7 @@ const Checkout: FC = () => {
       {cartGoods.map((good: IGood) => (
         <div className="check__content" key={good.barcode}>
           <div className="check__img">
-            <img src={good.url} alt="" />
+            <img src={`${process.env.PUBLIC_URL}${good.url}`} alt="" />
           </div>
           <div className="check__info">
             <span>

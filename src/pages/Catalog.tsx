@@ -192,7 +192,7 @@ const Catalog: FC<any> = () => {
           <div className="content__wrapper">
             {currentGoodsList.map(good => (
               <div className="catalog__card" key={good.barcode}>
-                <img src={good.url} alt="пропала картинка" />
+                <img src={`${process.env.PUBLIC_URL}${good.url}`} alt="пропала картинка" />
                 <span>{good.size} {good.sizeType === "вес" ? "г" : "мл"}</span>
                 <h3 onClick={() => navigate('/card/' + good.barcode)}>{good.name} {good.description}</h3>
                 <p>Штрихкод: {good.barcode}</p>
