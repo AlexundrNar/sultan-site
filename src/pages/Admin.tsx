@@ -73,12 +73,12 @@ const Admin: FC = () => {
             <option value="бумажная продукция">бумажная продукция</option>
           </select>
           <div className="form__btn">
-            <button onClick={changeItem}>Изменить содержимое</button>
+            <button data-testid="btn_change" onClick={changeItem}>Изменить содержимое</button>
           </div>
         </form>
 
         <div>
-          {data.map((good: IGood) => (
+          {data?.map((good: IGood) => (
             <div className="admin__content" key={good.barcode}>
               <div className="admin__img">
                 <img src={`${process.env.PUBLIC_URL}${good.url}`} alt="" />

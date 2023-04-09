@@ -2,9 +2,9 @@ import { FC } from "react";
 import "../style/modal-dash.scss"
 
 interface IModal {
-  active: any
-  setActive: any,
-  children: any,
+  active: boolean
+  setActive: Function,
+  children: React.ReactNode,
 }
 
 const ModalDash: FC<IModal> = ({ active, setActive, children }) => {

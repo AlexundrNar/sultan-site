@@ -81,11 +81,11 @@ const Header: FC = () => {
                 alt=""
                 onClick={() => navigate("/checkout")}
               />
-              <span>{totalQuantity}</span>
+              <span data-testid="количество">{totalQuantity}</span>
             </div>
             <div className="header__cart-check">
               <p>Корзина</p>
-              <span>{totalAmount} ₸</span>
+              <span data-testid="сумма">{totalAmount} ₸</span>
             </div>
           </div>
         </div>

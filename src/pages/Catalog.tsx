@@ -5,6 +5,8 @@ import data from "../bd.json"
 import "../style/catalog.scss";
 import { useAppDispatch, useAppSelector } from "../store/hooks/redux";
 import { cartActions } from "../store/reducers/CartSlice";
+import ButtonToCart from "../UI/ButtonToCart";
+import Caretype from "../components/Caretype";
 
 const Catalog: FC<any> = () => {
   const [goods, setGoods] = useState<IGood[]>(data)
@@ -132,23 +134,11 @@ const Catalog: FC<any> = () => {
             <option value="name">Название</option>
             <option value="price">Цена</option>
           </select>
-          <img className={asc ? 'catalog__asc': ''} src={`${process.env.PUBLIC_URL}/images/sort.svg`} alt="" onClick={toggleAsc} />
+          <img data-testid="asc" className={asc ? 'catalog__asc': ''} src={`${process.env.PUBLIC_URL}/images/sort.svg`} alt="" onClick={toggleAsc} />
         </div>
       </div>
 
-      <div className="catalog__filter">
-        <button onClick={handleFilter}>Уход за телом</button>
-        <button onClick={handleFilter}>Уход за руками</button>
-        <button onClick={handleFilter}>Уход за ногами</button>
-        <button onClick={handleFilter}>Уход за лицом</button>
-        <button onClick={handleFilter}>Уход за волосами</button>
-        <button onClick={handleFilter}>Средства для загара</button>
-        <button onClick={handleFilter}>Средства для бритья</button>
-        <button onClick={handleFilter}>Подарочные наборы</button>
-        <button onClick={handleFilter}>Гигиеническая продукция</button>
-        <button onClick={handleFilter}>Гигиена полости рта</button>
-        <button onClick={handleFilter}>Бумажная продукция</button>
-      </div>
+      <Caretype className="catalog__filter" onClick={handleFilter}/>
 
       <div className="catalog">
         <div className="wrapper">
@@ -172,19 +162,7 @@ const Catalog: FC<any> = () => {
               </button>
             </div>
 
-            <div className="params__filter">
-              <button onClick={handleFilter}>Уход за телом</button>
-              <button onClick={handleFilter}>Уход за руками</button>
-              <button onClick={handleFilter}>Уход за ногами</button>
-              <button onClick={handleFilter}>Уход за лицом</button>
-              <button onClick={handleFilter}>Уход за волосами</button>
-              <button onClick={handleFilter}>Средства для загара</button>
-              <button onClick={handleFilter}>Средства для бритья</button>
-              <button onClick={handleFilter}>Подарочные наборы</button>
-              <button onClick={handleFilter}>Гигиеническая продукция</button>
-              <button onClick={handleFilter}>Гигиена полости рта</button>
-              <button onClick={handleFilter}>Бумажная продукция</button>
-            </div>
+            <Caretype className="params__filter" onClick={handleFilter}/>
           </div>
         </div>
 
@@ -199,10 +177,7 @@ const Catalog: FC<any> = () => {
                 <p>Производитель: {good.maker}</p>
                 <p>Тип ухода: {good.caretype}</p>
                 <h4>{good.price} ₸</h4>
-                <button onClick={() => addToCart(good)}>
-                  В КОРЗИНУ
-                  <img src={`${process.env.PUBLIC_URL}/images/cart_mini.svg`} alt="" />
-                </button>
+                <ButtonToCart onClick={() => addToCart(good)} />
               </div>
             ))}
           </div>
